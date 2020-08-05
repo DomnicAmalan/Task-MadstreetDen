@@ -1,0 +1,78 @@
+
+.AppHeader {
+  background-color: #27a590;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.playarea-container {
+  float: right;
+  width: 100%;
+  height: auto;
+  background-color: ghostwhite;
+  text-align: center;
+  height: 100%;
+  min-height: 80vh;
+  overflow: auto;
+}
+
+.components-list-container {
+  background-color: whitesmoke;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+  width: 20%;
+  overflow-y: auto;
+  min-height: 80vh;
+}
+
+
+.save-config{
+  bottom:5px;
+  left: 140px;
+  cursor:pointer;
+}
+.elements {
+  padding: 17px;
+  background-color: thistle;
+  border-width: 67.5px;
+  border-color: black;
+  border-radius: 20px;
+  margin: 10px;
+}
+.save-button{
+  left:0; 
+  bottom: 20; 
+  background-color:"teal";
+}
+
+.config-container {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.config-input{
+  width: 70%;
+  height: 20%;
+}
